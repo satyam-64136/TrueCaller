@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(4px);
+    background-image: url('../media/1329323.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.SearchField {
+    margin: 0 auto;
+    align-self: center;
+    width: 70%;
+    background: rgba(42, 42, 54, 0.747);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 5vh;
+}
+
+.SearchField input {
+    background: transparent;
+    flex: 5;
+    border: 0;
+    outline: none;
+    font-size: 24px;
+    color: hwb(0 100% 0%);
+}
+
+::placeholder {
+    color: #a6a4cc;
+}
+
+.SearchField button img {
+    width: 25px;
+}
+
+.SearchField button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #95a1df27;
+    cursor: pointer;
+}
+
+.SearchField button:hover {
+    transform: scale(1.2);
+    transition: all 0.1s linear;
+}
+
+.card {
+    min-width: 38vh;
+    width: auto;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    background-color: #460404;
+    border-radius: 10px;
+    margin: 3vh;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.cards {
+    margin-top: 10px;
+}
+
+.details {
+    color: rgba(255, 255, 255, 0.877);
+    font-family: 'Poppins', sans-serif;
+}

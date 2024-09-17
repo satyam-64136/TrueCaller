@@ -1,0 +1,59 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('./BG.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#phone-form {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+input[type="text"], input[type="submit"] {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+
+
+#phone-form {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: inline-block;
+}
+
+input[type="text"], input[type="submit"] {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+
+#error-message {
+  margin-top: 10px;
+}
